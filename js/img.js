@@ -1,3 +1,4 @@
+ $(document).ready(function(){
 $("#outerdiv").hide();
 $(function(){  
 $("img").mouseover(function(){
@@ -19,3 +20,4 @@ function imgShow(outerdiv, bigimg, _this){
   $(outerdiv).click(function(){//再次点击淡出消失弹出层    
   $(this).fadeOut("fast");    
 });    
+ }
